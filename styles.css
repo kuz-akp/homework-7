@@ -1,0 +1,61 @@
+body {
+  margin: 20px;
+}
+p {
+  color: dimgray;
+  width: 350px;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+.container-flex {
+  width: 1200px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+
+  border: solid brown 1px;
+  box-sizing: border-box;
+}
+.container-block {
+  width: 1200px;
+  height: auto;
+  margin: 10px;
+  display: block;
+
+  padding: 20px;
+  border: solid brown 1px;
+  box-sizing: border-box;
+}
+.container-inline {
+  width: 1200px;
+  margin: 10px;
+  display: inline;
+
+  padding: 20px;
+}
+.float-right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+.overflow {
+  width: 300px;
+  height: 800px;
+  overflow: scroll;
+}
+.position-fixed {
+  position: fixed;
+  top: center;
+}
+.position-sticky {
+  position: sticky;
+  top: 40px;
+}
